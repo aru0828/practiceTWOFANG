@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+.clearfix{
+  clear: both;
+}
+
+
+.wrap{
+  margin: 0 auto;
+}
+
+
+.header{
+  position: fixed;
+  z-index: 100;
+  top:0;
+  width: 100%;
+  height:80px;
+  background: white;
+
+}
+
+.logo{
+  border-radius:0 0 40px 0;
+  float: left;
+  padding:20px 40px 20px 40px;
+ 
+  background-color: white;
+}
+
+.logo img{
+
+  width: 260px;
+  height: 83px;
+}
+
+.menu{
+  float:right;
+  width: 400px;
+  height: 80px;
+}
+
+.menuInner{
+  float:right;
+}
+.menuInner li{
+  font-size: 14px;
+  float:left;
+  width: 60px;
+  height: 80px;
+  padding: 33px 20px;
+}
+
+.menuInner li a{
+  text-decoration: none;
+  color:black;
+}
+
+.menuInner li a:hover{
+   color: #FF9500;
+}
+
+.banner{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.banner img{
+  
+  top:100px;
+  width: 1920px;
+  height: 459px;
+  width: auto;
+}
+
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
+
+.footer{
+  text-align: center;
+  color:white;
+  width: 100%;
+  height: 259px;
+  background:#1e1e1e;
+}
+
+
+/*怎麼用程式水平置中*/
+.footerInner{
+  margin:auto;
+  padding: 50px 0;
+  width: 1170px;
+  height: 159px;
+}
+
+.footerLeft{
+  width: 540px;
+  height: 148px;
+  float:left;
+  text-align: left;
+  border-right: 1px solid white;
+}
+.footerRight{
+  text-align: left;
+  padding:0 0 15px 150px;
+  width: 400px;
+  height: 148px;
+  float:left;
+}
+
+
+
+h4{
+    letter-spacing: 2px;
+    font-size: 17px;
+    color: #0062ab;
+    margin: 15px 0px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+
+h3{
+  font-size: 24px;
+  font-weight: bold;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #333;
+}
+
+.btn{
+  margin:0 auto;
+  text-align: center;
+  
+  width: 120px;
+  margin-top: 30px; 
+  float:left;
+}
+
+.btn a{
+  text-decoration: none;
+  padding:8px;
+  font-size: 15px;
+  display:block;
+  background:#0062ab;
+  color:white;
+  letter-spacing: 2px;
+}
+
+.btn a:hover{
+  background: #FF9500;
+}
+
+
+.menuInside{
+  margin-top: 33px;
+}
+
+.menuInside li{
+  padding: 12px 8px 0 5px;
+  background: white;
+  width: 130px;
+  height: 40px;
+  border-top: 1px solid   #e0e0e0;
+  box-sizing: border-box;
+
+}
+
+.menuInside li a{
+  text-decoration: none;
+  display: block;
+}
+
+.menuInside li:hover{
+  background: #FF9500;
+  color:white;
+
+}
+
+.menuInside li a:hover{
+  
+  color:white !important ;
+
+}
+
+.menuInner ul{
+  display:none;
+}
+
+.menuInner li:hover > ul{
+  display:block;
+}
